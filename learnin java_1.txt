@@ -1,0 +1,73 @@
+collection ---  it is a concept
+Collection---- its an interface-- Collcetion of elements    --  api
+Collections --- it is a class
+
+
+
+---------------------
+
+Collection interface - >  List interface (extends Collection) - >   Arraylist class which implements List   
+----------------------
+// collection is an interface and we cant create object of an interface
+
+
+int a[] = new int[4]; -- size is fixed
+//here by we have mention type as int
+
+// array is fast as compared to collection--- hence always go for array in case no. of elemetns is  fixed
+// here size is not fixed
+
+// here we have not mentioned any type-- hence by default the type will be object
+Collection values = new ArrayList();
+values.add(5);
+values.add(6);
+
+values.add("Navin");
+
+
+//if we want to be specific about the type-- then we have to use genrics
+//  in java 1.2 we got collection api and in java 1.5 we got generics
+
+Collection <integer> values = new ArrayList<integer>();
+values.add(6);
+values.add("Navin");   ----  this throws error now
+
+
+// in java 1.7 no need to mention integer on right side
+Collection <integer> values = new ArrayList<>();
+
+//Collection doesn't works with index number
+
+hence in order to work with index we will use List
+
+
+
+List<Integer> values = new ArrayList<>();
+
+
+
+// ADVANTAGE/DISADVANTAGE :-   in List we can have duplicate values but in Set we can't have duplicate values
+          //  insertion order maintained in list but not in set
+
+// every element in set will be unique
+
+
+// Set is also an interface and the HashSet class implements Set
+Set <Interger> numbers = new HashSet<>();
+
+
+//advantage of treeset :-  it will give all elements in sorted format
+ex :-  5 6 8 2 3 9   =>   output will be 2 3 5 6 8 9
+Set <Interger> numbers = new TreeSet<>();
+
+
+// in list we can have duplicate elements but every element will have a unique index number
+
+// adv map :-   map will have key - value   ---    MAP <K , V >
+so every element will have key value relationship
+
+// map is also an interface----  HashMap as well as HashTable class implements this interface  
+Hashtable is thread safe
+MAP <Integer , String>  m = new  HashMap<>();
+
+Map

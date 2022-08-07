@@ -1,0 +1,62 @@
+learn big data 6 hours
+---------------
+
+big data :-   3 V's   --- volume , variety of data(structured , unstructured (social media)) , velocity , veracity (uncertainity of the data)
+
+
+
+eXAMPLES OF Big data :-
+----------------------------
+
+Amazon , netflix , spotify   http://labs.spotify.com
+apps like uber , hailo  :- sensor data & geodata --- velocity
+google now / apple siri:-  ability to process view
+tesla autopilot:-  sensor data and image processing
+nyse bloomberg:-  trading data
+gogole analytics:- log data
+intelligence agencies:- graph data
+
+
+what is data science
+---------------------------
+data scientist ;--  statistics , data crunching (data cleaning ) , software enginerring
+big data solution  not only needs to store and process data but also needs the capabilities to iteratively run models on our data
+like :- recommendation engine , neural network to process images , NLP , outlier detection
+
+
+
+what is hadoop
+-----------------------
+hadoop is software to reliable and scalable store and process big data
+runs on commodity  hardware , low cost per GB
+ability to store petabytes of data in a single user.
+
+Hadoop was invented at yahoo and inspired by google's GFS (Google File System) and google's mapreduce papers
+opensource and maaintained on apace umbrella
+
+hadoop installation
+------------------------
+vagrant , virtualbox
+
+vagrant :-  can create and configure virtual and development environments
+wrapper around virtualbox ,KVM, AWS,DOCKER,VMWARE,HYPER-V
+create identical development environments for operations and developers
+disposable environments
+
+
+vagrant will come out of the box support for virtualbox
+
+to launch the 3 node cluster, go to the folder where you downloaded and type
+$vagrant up node1 node2 node3
+
+to suspend the machines
+$vagrant suspend
+
+to remove the data when you don't need it anymore
+$vagrant destroy
+
+
+
+
+
+

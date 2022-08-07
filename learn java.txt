@@ -1,0 +1,36 @@
+java provides 3 classes to represent a sequence of characters
+String ,  String Builder ,  String Buffer
+String is immutable but other 2 are not... immutable means once the object is created we cannot change its content.
+
+
+String Builder is not thread safe but String Buffer is.
+StringBuider is more efficient
+
+StringBuilder builder = new StringBuilder("hello");
+builder.append("java");
+System.out.println(builder);
+
+op :- hellojava
+
+similarly for buffer
+
+
+oops concepts in java
+object , class , inheritance , polymorphism , abstraction , encapsulation
+
+polymorphism ---  compile time polymorphism ,  runtime polymorphism
+
+one task performed in different ways--- example speaking---  a dog braks woof ,  cat speaks meow
+man at same time is father , husband , an employee
+
+runtime :-  super class reference and sub class object--- since object is assigned at runtime not at compile time
+
+
+------------
+
+abstraction can be achieved by either abstract classes or interfaces
+abstract keyword is non access modifier used for class and methods
+
+Abstract class--- restricted class that cannot be used to create objects.. to access it, it must be inherited from another class
+Abstract method --   can only be used in an abstract class and it does not have a body. The body is provided by the subclass(inherited from)
+An abstract class can have both abstract and regular methods
